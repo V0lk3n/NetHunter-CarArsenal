@@ -14,7 +14,7 @@ cd /opt/car_hacking/ICSim/builddir
 
 # Controls Display (Display :2, VNC 5901, noVNC 6081)
 export DISPLAY=:2
-Xvfb :2 -screen 0 835x608x16 &
+Xvfb :2 -screen 0 1024x768x16 &
 sleep 5
 fluxbox &
 sleep 2
